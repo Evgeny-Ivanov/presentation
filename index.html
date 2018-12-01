@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/league.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <style>
+        .city_and_year {
+            position: absolute;
+            top: 400px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .student_info {
+            position: absolute;
+            top: 200px;
+            right: 100px;
+        }
+    </style>
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section>
+            <h4>Домашнее задание по дисциплине</h4>
+            <h5>"Перспективы развития вооружения"</h5>
+            <small class="student_info">
+                <ul>
+                    <li>Студент: Иванов Е. В.</li>
+                    <li>Группа: СМ6-111</li>
+                    <li>Преподаватель: Зубов В. Н.</li>
+                </ul>
+            </small>
+            <small class="city_and_year">Москва 2018</small>
+        </section>
+        <section>
+            <h5>Назначение винтовки</h5>
+            <small>
+                7,62-мм снайперская винтовка Драгунова (СВД, Индекс ГРАУ - 6В1) -
+                самозарядная снайперская винтовка, разработанная в 1957-1963 годах
+                группой конструкторов под руководством Евгения Драгунова . Снайперская
+                винтовка является оружием снайпера и предназначена для поражения
+                движущихся и стационарных одиночных целей.
+            </small>
+        </section>
+        <section>
+            <h5>Патрон</h5>
+            <small>
+                Для стрельбы из СВД применяются винтовочные патроны 7,62х54R с
+                обыкновенными, трассирующими и бронебойно-зажигательными пулями, а
+                также снайперские патроны (7Н1, 7Н14); может также стрелять патронами с
+                экспансивными пулями JHP и JSP. Огонь из СВД ведется одиночными
+                выстрелами. Подача патронов при стрельбе производится из коробчатого
+                магазина ёмкостью 10 патронов.
+            </small>
+            <img src="images/ammunition.jpg" height="400"/>
+        </section>
+        <section>
+            <h5>Устройство и принцип работы винтовки</h5>
+            <img src="images/scheme.jpg" height="500"/>
+            <small>Основные части и механизмы снайперской винтовки</small>
+        </section>
+        <section>
+            <div style="margin-bottom: 10px">Тактико-технические характеристики</div>
+            <small>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Параметр</th>
+                        <th>Значение</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Калибр, мм</td>
+                        <td>7,62</td>
+                    </tr>
+                    <tr>
+                        <td>Используемый патрон</td>
+                        <td>7,62х54R</td>
+                    </tr>
+                    <tr>
+                        <td>Длина винтовки (без штык-ножа), мм</td>
+                        <td>1225</td>
+                    </tr>
+                    <tr>
+                        <td>Длина ствола, мм</td>
+                        <td>620</td>
+                    </tr>
+                    <tr>
+                        <td>Длина нарезной части ствола, мм</td>
+                        <td>547</td>
+                    </tr>
+                    <tr>
+                        <td>Число нарезов</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>Длина хода нарезов, мм</td>
+                        <td>240</td>
+                    </tr>
+                    <tr>
+                        <td>Длина прицельной линии, мм</td>
+                        <td>587</td>
+                    </tr>
+                    <tr>
+                        <td>Прицельная дальность (с механическим прицелом), м</td>
+                        <td>1200</td>
+                    </tr>
+                    <tr>
+                        <td>Прицельная дальность (с оптическим прицелом), м</td>
+                        <td>1300</td>
+                    </tr>
+                    <tr>
+                        <td>Боевая скорострельность, выстр/мин</td>
+                        <td>До 30</td>
+                    </tr>
+                    <tr>
+                        <td>Начальная скорость пули, м/с</td>
+                        <td>830</td>
+                    </tr>
+                    <tr>
+                        <td>Масса винтовки</td>
+                        <td>4,3</td>
+                    </tr>
+                    <tr>
+                        <td>Масса патрона, г</td>
+                        <td>21,8</td>
+                    </tr>
+                    <tr>
+                        <td>Емкость магазина, патронов</td>
+                        <td>10</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </small>
+        </section>
+    </div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+    // More info about config & dependencies:
+    // - https://github.com/hakimel/reveal.js#configuration
+    // - https://github.com/hakimel/reveal.js#dependencies
+    Reveal.initialize({
+        transition: 'concave',
+        dependencies: [
+            {src: 'plugin/markdown/marked.js'},
+            {src: 'plugin/markdown/markdown.js'},
+            {src: 'plugin/notes/notes.js', async: true},
+            {
+                src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+                    hljs.initHighlightingOnLoad();
+                }
+            }
+        ]
+    });
+</script>
+</body>
+</html>
